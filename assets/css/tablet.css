@@ -29,10 +29,26 @@
     order: 3;
   }
 
+  /* Hero Section Adjustments */
   .hero {
-    min-height: calc(100vh - 68px);
+    min-height: auto;
+    padding: 100px 0;
   }
 
+  .hero img {
+    object-fit: contain;
+    height: auto;
+  }
+
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+  
   /* Mobile Navigation Toggle */
   .mobile-nav-toggle {
     color: var(--nav-color);

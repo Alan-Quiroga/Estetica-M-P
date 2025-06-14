@@ -13,12 +13,30 @@
     transition: all 0.3s ease; /* Transición suave al cambiar tamaño */
   }
 
+   /* Hero Section Adjustments */
+  .hero {
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .hero img {
+    object-fit: contain;
+    height: auto;
+  }
+
   .hero h2 {
-    font-size: 32px;
+    font-size: 28px;
+    margin-bottom: 10px;
   }
 
   .hero p {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .hero .btn-get-started {
+    padding: 10px 30px;
+    font-size: 14px;
+    margin-top: 20px;
   }
 
   .services .service-item .icon {
