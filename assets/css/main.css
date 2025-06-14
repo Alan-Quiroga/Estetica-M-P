@@ -973,6 +973,7 @@ section,
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  animation: pulse 2s infinite;
 }
 
 .whatsapp-float:hover {
@@ -986,3 +987,8 @@ section,
   bottom: 30px !important; /* Aseguramos posición fija */
 }
 
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}

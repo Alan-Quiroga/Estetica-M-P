@@ -114,11 +114,6 @@
   });
 
   /**
-   * Initiate Pure Counter
-   */
-  new PureCounter();
-
-  /**
    * Init swiper sliders
    */
   function initSwiper() {
@@ -178,4 +173,3 @@
   });
 
 })();
-
