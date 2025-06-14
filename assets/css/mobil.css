@@ -1,0 +1,42 @@
+/* Mobile styles (max-width: 768px) */
+@media (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+
+    .header .logo h1 {
+    font-size: 20px; /* Tamaño reducido para móvil */
+    white-space: nowrap; /* Evita que se rompa en varias líneas */
+    overflow: hidden; /* Oculta el texto que desborde */
+    text-overflow: ellipsis; /* Añade puntos suspensivos si el texto es muy largo */
+    max-width: 150px; /* Ancho máximo para asegurar espacio para los iconos */
+    transition: all 0.3s ease; /* Transición suave al cambiar tamaño */
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .services .service-item .icon {
+    height: 100px;
+  }
+
+  .services .service-item {
+    padding: 20px;
+  }
+
+  /* Contact section adjustments */
+  .profile-img-container img {
+      max-width: 220px;
+    }
+
+  /* Contact section adjustments */
+  .contact .info-wrap,
+  .contact .php-email-form {
+    padding: 20px;
+  }
+}
