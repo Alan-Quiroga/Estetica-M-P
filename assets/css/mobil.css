@@ -57,4 +57,16 @@
   .contact .php-email-form {
     padding: 20px;
   }
+  
+  .whatsapp-float {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    right: 15px;
+    bottom: 80px;
+  }
+  
+  .scroll-top {
+    bottom: 15px !important;
+  }
 }

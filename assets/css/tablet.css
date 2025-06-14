@@ -48,7 +48,7 @@
   .hero p {
     font-size: 20px;
   }
-  
+
   /* Mobile Navigation Toggle */
   .mobile-nav-toggle {
     color: var(--nav-color);
@@ -189,6 +189,18 @@
   .contact .info-wrap,
   .contact .php-email-form {
     padding: 20px;
+  }
+
+    .whatsapp-float {
+    right: 20px;
+    bottom: 90px;
+    width: 52px;
+    height: 52px;
+    font-size: 26px;
+  }
+  
+  .scroll-top {
+    bottom: 20px !important;
   }
 }
 
